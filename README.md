@@ -40,16 +40,6 @@ chmod +x gpu_benchmark.py
 
 ---
 
-**One-line via `curl`:**
-  ```bash
-curl -s https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_benchmark.py \
-  | python3 -  | bash
-
-Or Locally:
-python3 gpu_benchmark.py
-
----
-
 **Example Output**
 
 ```text
@@ -94,3 +84,12 @@ python3 gpu_benchmark.py
 | InfiniBand Bandwidth                         | 200 Gbps         |
 | Fault Tolerance / MTTR                       | N/A              |
 +----------------------------------------------+------------------+
+
+
+**One-line via `curl`:**
+  ```bash
+curl -s https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_benchmark.py \
+  | python3 -  | bash
+
+Or Locally:
+python3 gpu_benchmark.py
