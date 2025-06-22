@@ -4,7 +4,7 @@ A standalone Python script to perform one-line, end-to-end benchmarking of GPU i
 
 ---
 
-**Features**
+## 🚀 Features
 
 - **System & GPU Info**: utilization, VRAM, PCIe version, power draw, driver & CUDA versions  
 - **Library Versions**: cuDNN, NCCL, cuBLAS  
@@ -15,32 +15,60 @@ A standalone Python script to perform one-line, end-to-end benchmarking of GPU i
 - **Orchestration**: Kubernetes support & tooling presence  
 - **Training Benchmark**: synthetic MNIST-style loop (throughput, epoch time, loss, accuracy, GPU-hrs, memory footprint)  
 - **Inference Benchmark**: model latency, throughput, cold-start time, variance, model size  
-- **Power Efficiency**: TFLOPS/W measured via matrix‐multiply  
+- **Power Efficiency**: TFLOPS/W measured via matrix-multiply  
 - **Determinism**: bit-wise repeatability check  
 - **Infra Checks**: InfiniBand bandwidth, NVLink (if available)  
 - **Placeholders** for any custom cost or MTTR metrics  
 
 ---
 
-**Prerequisites**
+## 📋 Prerequisites
 
-- Python 3.6+  
-- NVIDIA GPU with drivers & CUDA toolkit  
-- PyTorch installed:  
+- **Python** 3.6+  
+- **NVIDIA GPU** with drivers & CUDA toolkit  
+- **PyTorch** installed:  
   ```bash
   pip install torch
+  ```
+- System tools in your `PATH`:  
+  - `nvidia-smi`  
+  - `ping`  
+  - `ip`, `awk`  
 
 ---
 
-**Installation**
+## 🔧 Installation
 
+```bash
 git clone https://github.com/<YOUR_USER>/gpu-benchmark.git
 cd gpu-benchmark
 chmod +x gpu_benchmark.py
+```
 
 ---
 
-**Example Output**
+## 🎯 Usage
+
+### One-line via `curl`
+
+Fetch and execute the latest script:
+
+```bash
+curl -s https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_benchmark.py \
+  | python3 -
+```
+
+[Download the raw script ↗](https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_benchmark.py)
+
+### Or locally
+
+```bash
+python3 gpu_benchmark.py
+```
+
+---
+
+## 🖥️ Example Output
 
 ```text
 +----------------------------------------------+------------------+
@@ -84,12 +112,4 @@ chmod +x gpu_benchmark.py
 | InfiniBand Bandwidth                         | 200 Gbps         |
 | Fault Tolerance / MTTR                       | N/A              |
 +----------------------------------------------+------------------+
-
-
-**One-line via `curl`:**
-  ```bash
-curl -s https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_benchmark.py \
-  | python3 -  | bash
-
-Or Locally:
-python3 gpu_benchmark.py
+```
