@@ -34,7 +34,6 @@ A standalone Python script to perform one-line, end-to-end benchmarking of GPU i
 
 ## Installation
 
-```bash
 git clone https://github.com/<YOUR_USER>/gpu-benchmark.git
 cd gpu-benchmark
 chmod +x gpu_benchmark.py
