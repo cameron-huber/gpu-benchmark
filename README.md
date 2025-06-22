@@ -4,7 +4,7 @@ A standalone Python script to perform one-line, end-to-end benchmarking of GPU i
 
 ---
 
-## Features
+**Features**
 
 - **System & GPU Info**: utilization, VRAM, PCIe version, power draw, driver & CUDA versions  
 - **Library Versions**: cuDNN, NCCL, cuBLAS  
@@ -22,7 +22,7 @@ A standalone Python script to perform one-line, end-to-end benchmarking of GPU i
 
 ---
 
-## Prerequisites
+**Prerequisites**
 
 - Python 3.6+  
 - NVIDIA GPU with drivers & CUDA toolkit  
@@ -32,7 +32,7 @@ A standalone Python script to perform one-line, end-to-end benchmarking of GPU i
 
 ---
 
-## Installation
+**Installation**
 
 git clone https://github.com/<YOUR_USER>/gpu-benchmark.git
 cd gpu-benchmark
@@ -42,16 +42,15 @@ chmod +x gpu_benchmark.py
 
 **One-line via `curl`:**
 
-```bash
 curl -s https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_benchmark.py \
   | python3 -
-
 
 Or Locally:
 python3 gpu_benchmark.py
 
 ---
-## 🖥️ Example Output
+
+**Example Output**
 
 ```text
 +----------------------------------------------+------------------+
