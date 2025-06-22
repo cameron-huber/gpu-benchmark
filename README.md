@@ -41,9 +41,9 @@ chmod +x gpu_benchmark.py
 ---
 
 **One-line via `curl`:**
-
+  ```bash
 curl -s https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_benchmark.py \
-  | python3 -
+  | python3 -  | bash
 
 Or Locally:
 python3 gpu_benchmark.py
