@@ -49,9 +49,9 @@ Or Locally:
 python3 gpu_benchmark.py
 
 ---
+## 🖥️ Example Output
 
-## Sample Output
-
+```text
 +----------------------------------------------+------------------+
 | Metric                                       | Value            |
 +----------------------------------------------+------------------+
@@ -93,4 +93,3 @@ python3 gpu_benchmark.py
 | InfiniBand Bandwidth                         | 200 Gbps         |
 | Fault Tolerance / MTTR                       | N/A              |
 +----------------------------------------------+------------------+
-
