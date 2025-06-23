@@ -39,10 +39,35 @@ A standalone Python script to perform one-line, end-to-end benchmarking of GPU i
 
 ## INSTALL
 
+### Quick Setup (Recommended)
+
 ```bash
 git clone https://github.com/<YOUR_USER>/gpu-benchmark.git
 cd gpu-benchmark
+./setup.sh
+```
+
+This will:
+- Create a virtual environment
+- Install all Python dependencies
+- Check system requirements
+- Verify GPU setup
+
+### Manual Install
+
+```bash
+git clone https://github.com/<YOUR_USER>/gpu-benchmark.git
+cd gpu-benchmark
+pip install -r requirements.txt
 chmod +x gpu_benchmark.py
+```
+
+### Using Make (Alternative)
+
+```bash
+git clone https://github.com/<YOUR_USER>/gpu-benchmark.git
+cd gpu-benchmark
+make setup
 ```
 
 ---
@@ -60,10 +85,53 @@ curl -s https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_ben
 
 [Download the raw script ↗](https://raw.githubusercontent.com/<YOUR_USER>/gpu-benchmark/main/gpu_benchmark.py)
 
-### Or locally
+### Using the Run Script (Recommended)
 
 ```bash
-python3 gpu_benchmark.py
+# Basic benchmark with default cost ($0.50/hour)
+./run.sh
+
+# Specify custom cost per hour
+./run.sh --cost_per_hour 1.20
+
+# Run environment matrix tests
+./run.sh --cost_per_hour 0.80 --env_matrix
+```
+
+### Using Make Commands
+
+```bash
+# Run with default settings
+make run
+
+# Run with custom cost
+make run COST=1.50
+
+# Run environment matrix tests
+make test
+
+# View all available commands
+make help
+```
+
+### Or run directly
+
+```bash
+python3 gpu_benchmark.py --cost_per_hour 0.50
+```
+
+### Docker Usage
+
+```bash
+# Build the Docker image
+make docker-build
+
+# Run in container
+make docker-run COST=0.75
+
+# Or manually
+docker build -t gpu-benchmark .
+docker run --gpus all --rm gpu-benchmark --cost_per_hour 0.50
 ```
 
 ---
