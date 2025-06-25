@@ -1,0 +1,21 @@
+Rank	Category	Metric	Value	Cost/Hour	Timestamp
+1	Hardware Performance	GPU 0 Power Draw	119.75W	$0.50	2025-06-25T21:53:45.708036
+2	Hardware Performance	GPU 1 Power Draw	117.7W	$0.50	2025-06-25T21:53:45.708036
+3	Hardware Performance	Total GPU Power Draw	237.45W	$0.50	2025-06-25T21:53:45.708036
+4	ML Framework	Training Throughput	75064.90 samples/s	$0.50	2025-06-25T21:53:45.708036
+5	ML Framework	Sample Throughput (mean)	49413428.31 per_sec	$0.50	2025-06-25T21:53:45.708036
+6	ML Framework	Sample Throughput (median)	44739242.67 per_sec	$0.50	2025-06-25T21:53:45.708036
+7	ML Framework	Sample Throughput (min)	26843545.60 per_sec	$0.50	2025-06-25T21:53:45.708036
+8	ML Framework	Sample Throughput (max)	89478485.33 per_sec	$0.50	2025-06-25T21:53:45.708036
+9	ML Framework	Token Throughput (mean)	7438104535935.66 per_sec	$0.50	2025-06-25T21:53:45.708036
+10	ML Framework	Token Throughput (median)	6734508720128.00 per_sec	$0.50	2025-06-25T21:53:45.708036
+11	ML Framework	Token Throughput (min)	4040705232076.80 per_sec	$0.50	2025-06-25T21:53:45.708036
+12	ML Framework	Token Throughput (max)	13469017440256.00 per_sec	$0.50	2025-06-25T21:53:45.708036
+13	Multi-GPU	Multi-GPU Throughput	11325.40 samples/s	$0.50	2025-06-25T21:53:45.708036
+14	System Setup	GPU 0 Name	NVIDIA H100 80GB HBM3	$0.50	2025-06-25T21:53:45.708036
+15	System Setup	GPU 0 Memory Total	81559 MB	$0.50	2025-06-25T21:53:45.708036
+16	System Setup	GPU 0 Memory Free	81558 MB	$0.50	2025-06-25T21:53:45.708036
+17	System Setup	GPU 0 Temperature	35°C	$0.50	2025-06-25T21:53:45.708036
+18	System Setup	GPU 0 Power Draw	120.98W	$0.50	2025-06-25T21:53:45.708036
+19	System Setup	GPU 1 Name	NVIDIA H100 80GB HBM3	$0.50	2025-06-25T21:53:45.708036
+20	System Setup	GPU 1 Memory Total	81559 MB	$0.50	2025-06-25T21:53:45.708036
