@@ -16,7 +16,7 @@ CLEANUP=true
 # Parse arguments
 while [[ $# -gt 0 ]]; do
     case $1 in
-        --cost-per-hour)
+        --cost_per_hour)
             COST_PER_HOUR="$2"
             shift 2
             ;;
@@ -37,7 +37,7 @@ while [[ $# -gt 0 ]]; do
             echo "Usage: $0 [OPTIONS]"
             echo ""
             echo "Options:"
-            echo "  --cost-per-hour COST    Set GPU cost per hour (default: 1.00)"
+            echo "  --cost_per_hour COST    Set GPU cost per hour (default: 1.00)"
             echo "  --output-file FILE      Save results to file"
             echo "  --verbose              Show detailed output"
             echo "  --keep-files           Don't cleanup temporary files"
@@ -71,7 +71,7 @@ echo "🎯 Running GPU benchmark..."
 echo "   Cost per hour: $COST_PER_HOUR"
 
 # Build command
-CMD="source venv/bin/activate && python gpu_benchmark.py --cost-per-hour $COST_PER_HOUR"
+CMD="source venv/bin/activate && python gpu_benchmark.py --cost_per_hour $COST_PER_HOUR --cost_per_hour $COST_PER_HOUR"
 
 if [[ -n "$OUTPUT_FILE" ]]; then
     CMD="$CMD --output-file $OUTPUT_FILE"
