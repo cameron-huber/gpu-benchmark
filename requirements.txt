@@ -3,3 +3,5 @@ torchvision>=0.10.0
 transformers>=4.0.0
 numpy>=1.19.0
 kubernetes>=18.0.0
+psutil>=5.8.0
+requests>=2.25.0
