@@ -140,7 +140,7 @@ def get_metric_importance_score(metric, value, category):
     
     return score
 
-def select_top_metrics(all_metrics, top_k=20):
+def select_top_metrics(all_metrics, top_k=None):
     """Select top K most important metrics for summary"""
     scored_metrics = []
     
@@ -151,11 +151,14 @@ def select_top_metrics(all_metrics, top_k=20):
     # Sort by score (descending) and take top K
     scored_metrics.sort(key=lambda x: x[0], reverse=True)
     
-    return [(cat, metric, value) for score, cat, metric, value in scored_metrics[:top_k]]
+    if top_k is None:
+        return [(cat, metric, value) for score, cat, metric, value in scored_metrics]
+    else:
+        return [(cat, metric, value) for score, cat, metric, value in scored_metrics[:top_k]]
 
 def output_google_sheets_summary(all_metrics, cost_per_hour, output_file=None):
-    """Output top 20 metrics in Google Sheets-friendly tab-separated format"""
-    top_metrics = select_top_metrics(all_metrics, top_k=20)
+    """Output all metrics in Google Sheets-friendly tab-separated format"""
+    top_metrics = select_top_metrics(all_metrics, top_k=None)
     
     timestamp = datetime.now().isoformat()
     
@@ -567,4 +570,7 @@ if __name__ == '__main__':
     output_google_sheets_summary(all_metrics, cost_per_hour, args.summary_output)
     
     print(f"\nBenchmark completed! Analyzed {len(all_metrics)} total metrics.")
-    print(f"Top {args.top_k} most important metrics selected for Google Sheets summary.")
+    if args.top_k:
+        print(f"Top {args.top_k} most important metrics selected for Google Sheets summary.")
+    else:
+        print("All metrics included in Google Sheets summary.")

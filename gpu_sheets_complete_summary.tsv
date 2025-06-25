@@ -1,0 +1,58 @@
+Rank	Category	Metric	Value	Cost/Hour	Timestamp
+1	Hardware Performance	GPU 0 Power Draw	120.44W	$1.49	2025-06-25T22:30:10.965886
+2	Hardware Performance	GPU 1 Power Draw	118.18W	$1.49	2025-06-25T22:30:10.965886
+3	Hardware Performance	Total GPU Power Draw	238.62W	$1.49	2025-06-25T22:30:10.965886
+4	ML Framework	Training Throughput	74165.73 samples/s	$1.49	2025-06-25T22:30:10.965886
+5	ML Framework	Sample Throughput (mean)	54888659.43 per_sec	$1.49	2025-06-25T22:30:10.965886
+6	ML Framework	Sample Throughput (median)	53687091.20 per_sec	$1.49	2025-06-25T22:30:10.965886
+7	ML Framework	Sample Throughput (min)	38347922.29 per_sec	$1.49	2025-06-25T22:30:10.965886
+8	ML Framework	Sample Throughput (max)	89478485.33 per_sec	$1.49	2025-06-25T22:30:10.965886
+9	ML Framework	Token Throughput (mean)	8262280126922.75 per_sec	$1.49	2025-06-25T22:30:10.965886
+10	ML Framework	Token Throughput (median)	8081410464153.60 per_sec	$1.49	2025-06-25T22:30:10.965886
+11	ML Framework	Token Throughput (min)	5772436045824.00 per_sec	$1.49	2025-06-25T22:30:10.965886
+12	ML Framework	Token Throughput (max)	13469017440256.00 per_sec	$1.49	2025-06-25T22:30:10.965886
+13	Multi-GPU	Multi-GPU Throughput	11815.73 samples/s	$1.49	2025-06-25T22:30:10.965886
+14	System Setup	GPU 0 Name	NVIDIA H100 80GB HBM3	$1.49	2025-06-25T22:30:10.965886
+15	System Setup	GPU 0 Memory Total	81559 MB	$1.49	2025-06-25T22:30:10.965886
+16	System Setup	GPU 0 Memory Free	81558 MB	$1.49	2025-06-25T22:30:10.965886
+17	System Setup	GPU 0 Temperature	36°C	$1.49	2025-06-25T22:30:10.965886
+18	System Setup	GPU 0 Power Draw	120.29W	$1.49	2025-06-25T22:30:10.965886
+19	System Setup	GPU 1 Name	NVIDIA H100 80GB HBM3	$1.49	2025-06-25T22:30:10.965886
+20	System Setup	GPU 1 Memory Total	81559 MB	$1.49	2025-06-25T22:30:10.965886
+21	System Setup	GPU 1 Memory Free	81558 MB	$1.49	2025-06-25T22:30:10.965886
+22	System Setup	GPU 1 Utilization	5%	$1.49	2025-06-25T22:30:10.965886
+23	System Setup	GPU 1 Temperature	32°C	$1.49	2025-06-25T22:30:10.965886
+24	System Setup	GPU 1 Power Draw	119.49W	$1.49	2025-06-25T22:30:10.965886
+25	System Setup	CUDA Version	11.8	$1.49	2025-06-25T22:30:10.965886
+26	System Setup	GPU Count	2	$1.49	2025-06-25T22:30:10.965886
+27	System Setup	CUDA Version	11.8	$1.49	2025-06-25T22:30:10.965886
+28	Hardware Performance	GPU 0 Power Efficiency	17.2%	$1.49	2025-06-25T22:30:10.965886
+29	Hardware Performance	GPU 1 Power Efficiency	16.9%	$1.49	2025-06-25T22:30:10.965886
+30	ML Framework	Cost per Sample (from Sample Throughput (mean))	$0.000000	$1.49	2025-06-25T22:30:10.965886
+31	ML Framework	Cost per Sample (from Sample Throughput (median))	$0.000000	$1.49	2025-06-25T22:30:10.965886
+32	ML Framework	Cost per Sample (from Sample Throughput (min))	$0.000000	$1.49	2025-06-25T22:30:10.965886
+33	ML Framework	Cost per Sample (from Sample Throughput (max))	$0.000000	$1.49	2025-06-25T22:30:10.965886
+34	ML Framework	Cost per Token (from Token Throughput (mean))	$0.000000000	$1.49	2025-06-25T22:30:10.965886
+35	ML Framework	Cost per Token (from Token Throughput (median))	$0.000000000	$1.49	2025-06-25T22:30:10.965886
+36	ML Framework	Cost per Token (from Token Throughput (min))	$0.000000000	$1.49	2025-06-25T22:30:10.965886
+37	ML Framework	Cost per Token (from Token Throughput (max))	$0.000000000	$1.49	2025-06-25T22:30:10.965886
+38	System Setup	GPU 0 Utilization	0%	$1.49	2025-06-25T22:30:10.965886
+39	System Setup	CPU Cores Physical	26	$1.49	2025-06-25T22:30:10.965886
+40	System Setup	CPU Cores Logical	52	$1.49	2025-06-25T22:30:10.965886
+41	System Setup	RAM Total	228 GB	$1.49	2025-06-25T22:30:10.965886
+42	ML Framework	float32 Matrix Multiply	0.0313s	$1.49	2025-06-25T22:30:10.965886
+43	ML Framework	Training Iterations	100	$1.49	2025-06-25T22:30:10.965886
+44	ML Framework	Avg Time per Batch	0.0017s	$1.49	2025-06-25T22:30:10.965886
+45	Multi-GPU	Available GPUs	2	$1.49	2025-06-25T22:30:10.965886
+46	Multi-GPU	Avg Time per Batch	0.0217s	$1.49	2025-06-25T22:30:10.965886
+47	System Setup	GPU 0 Memory Used	1 MB	$1.49	2025-06-25T22:30:10.965886
+48	System Setup	GPU 1 Memory Used	1 MB	$1.49	2025-06-25T22:30:10.965886
+49	System Setup	Current GPU	NVIDIA H100 80GB HBM3	$1.49	2025-06-25T22:30:10.965886
+50	System Setup	RAM Available	223 GB	$1.49	2025-06-25T22:30:10.965886
+51	System Setup	RAM Usage	2.1%	$1.49	2025-06-25T22:30:10.965886
+52	ML Framework	Final Loss	0.0000	$1.49	2025-06-25T22:30:10.965886
+53	Multi-GPU	Multi-GPU Training	DataParallel	$1.49	2025-06-25T22:30:10.965886
+54	System Setup	CUDA Available	Yes	$1.49	2025-06-25T22:30:10.965886
+55	System Setup	PyTorch Version	2.7.1+cu118	$1.49	2025-06-25T22:30:10.965886
+56	System Setup	Python Version	3.12.7	$1.49	2025-06-25T22:30:10.965886
+57	System Setup	CUDA Available	Yes	$1.49	2025-06-25T22:30:10.965886
