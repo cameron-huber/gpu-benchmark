@@ -1,0 +1,66 @@
+Rank	Category	Metric	Value	Cost/Hour	Timestamp
+1	System Setup	GPU Count	2	$5.00	2025-06-25T23:46:53.634670
+2	System Setup	GPU Names	NVIDIA H100 80GB HBM3, NVIDIA H100 80GB HBM3	$5.00	2025-06-25T23:46:53.634670
+3	System Setup	GPU Memory	81105 MiB, 81105 MiB	$5.00	2025-06-25T23:46:53.634670
+4	System Setup	NVIDIA Driver	565.57.01	$5.00	2025-06-25T23:46:53.634670
+5	System Setup	CPU Model	Intel(R) Xeon(R) Platinum 8470	$5.00	2025-06-25T23:46:53.634670
+6	System Setup	CPU Cores	52	$5.00	2025-06-25T23:46:53.634670
+7	System Setup	Total RAM	Mem: 228.1Ti	$5.00	2025-06-25T23:46:53.634670
+8	System Setup	Available RAM	Mem: 222.7Ti	$5.00	2025-06-25T23:46:53.634670
+9	System Setup	PyTorch	2.7.1+cu118	$5.00	2025-06-25T23:46:53.634670
+10	System Setup	CUDA Available	True	$5.00	2025-06-25T23:46:53.634670
+11	System Setup	PyTorch CUDA Version	11.8	$5.00	2025-06-25T23:46:53.634670
+12	System Setup	Transformers	4.52.4	$5.00	2025-06-25T23:46:53.634670
+13	System Setup	NumPy	2.1.2	$5.00	2025-06-25T23:46:53.634670
+14	Hardware & Performance	Disk Write Test	104857600 bytes (105 MB, 100 MiB) copied, 0.216301 s, 462.3 GB/s	$5.00	2025-06-25T23:46:53.634670
+15	Hardware & Performance	Internet Latency	2.543/2.647/2.750/0.074 ms ms	$5.00	2025-06-25T23:46:53.634670
+16	Hardware & Performance	System Uptime	23:46:51 up 2 days,  6:09,  1 user,  load average: 0.15, 0.03, 0.01	$5.00	2025-06-25T23:46:53.634670
+17	Hardware & Performance	Current Power Draw	239.08 W	$5.00	2025-06-25T23:46:53.634670
+18	Hardware & Performance	Power Limit	1400.00 W	$5.00	2025-06-25T23:46:53.634670
+19	Hardware & Performance	Efficiency Calculation	Failed	$5.00	2025-06-25T23:46:53.634670
+20	Hardware & Performance	IB Devices	mlx5_0, mlx5_1, mlx5_2, mlx5_3, mlx5_4, mlx5_5, mlx5_6, mlx5_7, mlx5_8, mlx5_9	$5.00	2025-06-25T23:46:53.634670
+21	Hardware & Performance	IB Tools Available	False	$5.00	2025-06-25T23:46:53.634670
+22	Hardware & Performance	NVLink Status	Available	$5.00	2025-06-25T23:46:53.634670
+23	Hardware & Performance	NVLink Connections	0	$5.00	2025-06-25T23:46:53.634670
+24	ML Framework Tests	FP32 MatMul (1000x1000)	0.0295 seconds	$5.00	2025-06-25T23:46:53.634670
+25	ML Framework Tests	FP16 MatMul (1000x1000)	0.1188 seconds	$5.00	2025-06-25T23:46:53.634670
+26	ML Framework Tests	FP16 Speedup	0.25x	$5.00	2025-06-25T23:46:53.634670
+27	ML Framework Tests	Avg Batch Time	0.0013 seconds	$5.00	2025-06-25T23:46:53.634670
+28	ML Framework Tests	Samples/Second	94821.69	$5.00	2025-06-25T23:46:53.634670
+29	ML Framework Tests	Training Cost per Sample	$0.000000	$5.00	2025-06-25T23:46:53.634670
+30	ML Framework Tests	Model	DistilBERT Sentiment	$5.00	2025-06-25T23:46:53.634670
+31	ML Framework Tests	Inference Time (100 samples)	0.3297 seconds	$5.00	2025-06-25T23:46:53.634670
+32	ML Framework Tests	Throughput	303.28 inferences/sec	$5.00	2025-06-25T23:46:53.634670
+33	ML Framework Tests	Inference Cost per Sample	$0.000005	$5.00	2025-06-25T23:46:53.634670
+34	ML Framework Tests	Model	GPT-2 (small)	$5.00	2025-06-25T23:46:53.634670
+35	ML Framework Tests	Generations	10	$5.00	2025-06-25T23:46:53.634670
+36	ML Framework Tests	Total Time	2.8426 seconds	$5.00	2025-06-25T23:46:53.634670
+37	ML Framework Tests	Avg Time/Generation	0.2843 seconds	$5.00	2025-06-25T23:46:53.634670
+38	ML Framework Tests	Text Generation Cost	$0.000395	$5.00	2025-06-25T23:46:53.634670
+39	ML Framework Tests	Sample Throughput (mean)	59432462.13 per_sec	$5.00	2025-06-25T23:46:53.634670
+40	ML Framework Tests	Sample Throughput (median)	53687091.20 per_sec	$5.00	2025-06-25T23:46:53.634670
+41	ML Framework Tests	Sample Throughput (min)	10737418.24 per_sec	$5.00	2025-06-25T23:46:53.634670
+42	ML Framework Tests	Sample Throughput (max)	89478485.33 per_sec	$5.00	2025-06-25T23:46:53.634670
+43	ML Framework Tests	Token Throughput (mean)	8946249660174.61 per_sec	$5.00	2025-06-25T23:46:53.634670
+44	ML Framework Tests	Token Throughput (median)	8081410464153.60 per_sec	$5.00	2025-06-25T23:46:53.634670
+45	ML Framework Tests	Token Throughput (min)	1616282092830.72 per_sec	$5.00	2025-06-25T23:46:53.634670
+46	ML Framework Tests	Token Throughput (max)	13469017440256.00 per_sec	$5.00	2025-06-25T23:46:53.634670
+47	ML Framework Tests	Cost per Sample	$0.000000	$5.00	2025-06-25T23:46:53.634670
+48	ML Framework Tests	Cost per Token	$0.000000000	$5.00	2025-06-25T23:46:53.634670
+49	ML Framework Tests	Deterministic Results	True	$5.00	2025-06-25T23:46:53.634670
+50	Multi-GPU & Parallelism Container & Orchestration Compatibility	kubectl Installed	False	$5.00	2025-06-25T23:46:53.634670
+51	Multi-GPU & Parallelism Container & Orchestration Compatibility	Available GPUs	2	$5.00	2025-06-25T23:46:53.634670
+52	Multi-GPU & Parallelism Container & Orchestration Compatibility	Multi-GPU Inference Time	170.8472 seconds	$5.00	2025-06-25T23:46:53.634670
+53	Multi-GPU & Parallelism Container & Orchestration Compatibility	Gradient Sync Test	Requires distributed setup	$5.00	2025-06-25T23:46:53.634670
+54	Multi-GPU & Parallelism Container & Orchestration Compatibility	Available for Testing	2 GPUs detected	$5.00	2025-06-25T23:46:53.634670
+55	Multi-GPU & Parallelism Container & Orchestration Compatibility	GPU 0->1 Bandwidth	811.11 GB/s	$5.00	2025-06-25T23:46:53.634670
+56	Multi-GPU & Parallelism Container & Orchestration Compatibility	Transfer Size	100 MB	$5.00	2025-06-25T23:46:53.634670
+57	Multi-GPU & Parallelism Container & Orchestration Compatibility	Multi-GPU Model Inference	0.0004 seconds	$5.00	2025-06-25T23:46:53.634670
+58	Multi-GPU & Parallelism Container & Orchestration Compatibility	GPUs for Model Parallelism	2	$5.00	2025-06-25T23:46:53.634670
+59	Multi-GPU & Parallelism Container & Orchestration Compatibility	Scaling Test	Can scale across 2 GPUs	$5.00	2025-06-25T23:46:53.634670
+60	Multi-GPU & Parallelism Container & Orchestration Compatibility	Note	Actual scaling depends on model architecture	$5.00	2025-06-25T23:46:53.634670
+61	Multi-GPU & Parallelism Container & Orchestration Compatibility	Docker Installed	False	$5.00	2025-06-25T23:46:53.634670
+62	Multi-GPU & Parallelism Container & Orchestration Compatibility	Docker Version	N/A	$5.00	2025-06-25T23:46:53.634670
+63	Multi-GPU & Parallelism Container & Orchestration Compatibility	Kubernetes CLI Installed	False	$5.00	2025-06-25T23:46:53.634670
+64	Multi-GPU & Parallelism Container & Orchestration Compatibility	Kubernetes CLI Version	N/A	$5.00	2025-06-25T23:46:53.634670
+65	Multi-GPU & Parallelism Container & Orchestration Compatibility	GPU Visibility in Container	False	$5.00	2025-06-25T23:46:53.634670

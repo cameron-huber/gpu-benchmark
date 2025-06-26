@@ -1,0 +1,128 @@
+timestamp,category,metric,value,cost_per_hour
+2025-06-25T21:25:46.440445,System Setup,GPU 0 Name,NVIDIA H100 80GB HBM3,0.50
+2025-06-25T21:25:46.440460,System Setup,GPU 0 Memory Total,81559 MB,0.50
+2025-06-25T21:25:46.440463,System Setup,GPU 0 Memory Used,1 MB,0.50
+2025-06-25T21:25:46.440466,System Setup,GPU 0 Memory Free,81558 MB,0.50
+2025-06-25T21:25:46.440468,System Setup,GPU 0 Utilization,6%,0.50
+2025-06-25T21:25:46.440473,System Setup,GPU 0 Temperature,35°C,0.50
+2025-06-25T21:25:46.440476,System Setup,GPU 0 Power Draw,122.33W,0.50
+2025-06-25T21:25:46.440478,System Setup,GPU 1 Name,NVIDIA H100 80GB HBM3,0.50
+2025-06-25T21:25:46.440480,System Setup,GPU 1 Memory Total,81559 MB,0.50
+2025-06-25T21:25:46.440483,System Setup,GPU 1 Memory Used,1 MB,0.50
+2025-06-25T21:25:46.440485,System Setup,GPU 1 Memory Free,81558 MB,0.50
+2025-06-25T21:25:46.440487,System Setup,GPU 1 Utilization,0%,0.50
+2025-06-25T21:25:46.440490,System Setup,GPU 1 Temperature,30°C,0.50
+2025-06-25T21:25:46.440492,System Setup,GPU 1 Power Draw,119.79W,0.50
+2025-06-25T21:25:46.440498,System Setup,CUDA Available,Yes,0.50
+2025-06-25T21:25:46.440500,System Setup,CUDA Version,11.8,0.50
+2025-06-25T21:25:46.440502,System Setup,GPU Count,2,0.50
+2025-06-25T21:25:46.440505,System Setup,Current GPU,NVIDIA H100 80GB HBM3,0.50
+2025-06-25T21:25:46.440507,System Setup,CPU Model,x86_64,0.50
+2025-06-25T21:25:46.440510,System Setup,CPU Cores Physical,26,0.50
+2025-06-25T21:25:46.440512,System Setup,CPU Cores Logical,52,0.50
+2025-06-25T21:25:46.440514,System Setup,CPU Frequency,0 MHz,0.50
+2025-06-25T21:25:46.440517,System Setup,CPU Usage,0.0%,0.50
+2025-06-25T21:25:46.440519,System Setup,RAM Total,228 GB,0.50
+2025-06-25T21:25:46.440521,System Setup,RAM Available,224 GB,0.50
+2025-06-25T21:25:46.440523,System Setup,RAM Used,1 GB,0.50
+2025-06-25T21:25:46.440525,System Setup,RAM Usage,1.5%,0.50
+2025-06-25T21:25:46.440527,System Setup,Load Average (1m),0.47,0.50
+2025-06-25T21:25:46.440529,System Setup,Load Average (5m),0.17,0.50
+2025-06-25T21:25:46.440531,System Setup,Load Average (15m),0.11,0.50
+2025-06-25T21:25:46.440533,System Setup,PyTorch Version,2.7.1+cu118,0.50
+2025-06-25T21:25:46.440535,System Setup,TorchVision Version,0.22.1+cu118,0.50
+2025-06-25T21:25:46.440538,System Setup,Python Version,3.12.7,0.50
+2025-06-25T21:25:46.440540,System Setup,Platform,Linux-6.8.0-57-generic-x86_64-with-glibc2.39,0.50
+2025-06-25T21:25:46.440542,System Setup,Transformers Version,4.52.4,0.50
+2025-06-25T21:25:46.440544,System Setup,NumPy Version,2.1.2,0.50
+2025-06-25T21:25:46.440551,Hardware & Performance,Disk Total,4648 GB,0.50
+2025-06-25T21:25:46.440554,Hardware & Performance,Disk Used,57 GB,0.50
+2025-06-25T21:25:46.440557,Hardware & Performance,Disk Free,4591 GB,0.50
+2025-06-25T21:25:46.440559,Hardware & Performance,Disk Usage,1.2%,0.50
+2025-06-25T21:25:46.440561,Hardware & Performance,Disk Write Speed,2589.8 MB/s,0.50
+2025-06-25T21:25:46.440564,Hardware & Performance,Disk Read Speed,7364.5 MB/s,0.50
+2025-06-25T21:25:46.440566,Hardware & Performance,Ping 8.8.8.8,2.625 ms,0.50
+2025-06-25T21:25:46.440568,Hardware & Performance,Ping 1.1.1.1,3.163 ms,0.50
+2025-06-25T21:25:46.440569,Hardware & Performance,Ping google.com,3.835 ms,0.50
+2025-06-25T21:25:46.440571,Hardware & Performance,Network Interfaces,"lo, eth0",0.50
+2025-06-25T21:25:46.440573,Hardware & Performance,System Boot Time,2025-06-23 17:37:27,0.50
+2025-06-25T21:25:46.440577,Hardware & Performance,System Uptime,2d 3h 48m,0.50
+2025-06-25T21:25:46.440579,Hardware & Performance,Running Processes,565,0.50
+2025-06-25T21:25:46.440581,Hardware & Performance,GPU 0 Power Draw,120.41W,0.50
+2025-06-25T21:25:46.440583,Hardware & Performance,GPU 0 Power Limit,700.0W,0.50
+2025-06-25T21:25:46.440585,Hardware & Performance,GPU 0 Power Efficiency,17.2%,0.50
+2025-06-25T21:25:46.440587,Hardware & Performance,GPU 1 Power Draw,117.63W,0.50
+2025-06-25T21:25:46.440589,Hardware & Performance,GPU 1 Power Limit,700.0W,0.50
+2025-06-25T21:25:46.440593,Hardware & Performance,GPU 1 Power Efficiency,16.8%,0.50
+2025-06-25T21:25:46.440595,Hardware & Performance,Total GPU Power Draw,238.04W,0.50
+2025-06-25T21:25:46.440597,Hardware & Performance,Total GPU Power Limit,1400.0W,0.50
+2025-06-25T21:25:46.440599,Hardware & Performance,Overall Power Efficiency,17.0%,0.50
+2025-06-25T21:25:46.440601,Hardware & Performance,InfiniBand Status,Not Available,0.50
+2025-06-25T21:25:46.440603,Hardware & Performance,GPU Count for NVLink,2,0.50
+2025-06-25T21:25:46.440605,Hardware & Performance,GPU 0 P2P Access,N/A Yes,0.50
+2025-06-25T21:25:46.440607,Hardware & Performance,GPU 1 P2P Access,Yes N/A,0.50
+2025-06-25T21:25:46.440609,Hardware & Performance,NVLink Bandwidth Test,0.71 GB/s,0.50
+2025-06-25T21:25:46.440614,ML Framework Tests,float32 Matrix Multiply,0.0310s,0.50
+2025-06-25T21:25:46.440617,ML Framework Tests,float16 Matrix Multiply,0.1241s,0.50
+2025-06-25T21:25:46.440619,ML Framework Tests,bfloat16 Matrix Multiply,0.0290s,0.50
+2025-06-25T21:25:46.440623,ML Framework Tests,Mixed Precision Support,Available,0.50
+2025-06-25T21:25:46.440625,ML Framework Tests,Training Iterations,100,0.50
+2025-06-25T21:25:46.440627,ML Framework Tests,Avg Time per Batch,0.0016s,0.50
+2025-06-25T21:25:46.440629,ML Framework Tests,Training Throughput,78228.91 samples/s,0.50
+2025-06-25T21:25:46.440631,ML Framework Tests,Final Loss,0.0000,0.50
+2025-06-25T21:25:46.440635,ML Framework Tests,HuggingFace Model,distilbert-base-uncased,0.50
+2025-06-25T21:25:46.440648,ML Framework Tests,Inference Time,0.0890s,0.50
+2025-06-25T21:25:46.440651,ML Framework Tests,Inference Throughput,56.17 samples/s,0.50
+2025-06-25T21:25:46.440653,ML Framework Tests,Sample Prediction,LABEL_1: 0.509,0.50
+2025-06-25T21:25:46.440655,ML Framework Tests,Proxy Model Type,CNN,0.50
+2025-06-25T21:25:46.440658,ML Framework Tests,Training Batches,50,0.50
+2025-06-25T21:25:46.440660,ML Framework Tests,Total Training Time,0.15s,0.50
+2025-06-25T21:25:46.440662,ML Framework Tests,Training Throughput,21327.49 samples/s,0.50
+2025-06-25T21:25:46.440666,ML Framework Tests,Final Loss,2.2865,0.50
+2025-06-25T21:25:46.440668,ML Framework Tests,Generative Model,DistilGPT2,0.50
+2025-06-25T21:25:46.440670,ML Framework Tests,Generation Time,0.9492s,0.50
+2025-06-25T21:25:46.440672,ML Framework Tests,Generated Text Length,377 chars,0.50
+2025-06-25T21:25:46.440674,ML Framework Tests,Generation Speed,397.19 chars/s,0.50
+2025-06-25T21:25:46.440676,ML Framework Tests,Sample Output,The future of AI is more open and more open. We have a good opportunity to offer up some of our best...,0.50
+2025-06-25T21:25:46.440678,ML Framework Tests,Sample Throughput (mean),48535686.97 per_sec,0.50
+2025-06-25T21:25:46.440681,ML Framework Tests,Sample Throughput (median),53687091.20 per_sec,0.50
+2025-06-25T21:25:46.440683,ML Framework Tests,Sample Throughput (min),26843545.60 per_sec,0.50
+2025-06-25T21:25:46.440685,ML Framework Tests,Sample Throughput (max),67108864.00 per_sec,0.50
+2025-06-25T21:25:46.440687,ML Framework Tests,Token Throughput (mean),7305979888664.58 per_sec,0.50
+2025-06-25T21:25:46.440689,ML Framework Tests,Token Throughput (median),8081410464153.60 per_sec,0.50
+2025-06-25T21:25:46.440691,ML Framework Tests,Token Throughput (min),4040705232076.80 per_sec,0.50
+2025-06-25T21:25:46.440693,ML Framework Tests,Token Throughput (max),10101763080192.00 per_sec,0.50
+2025-06-25T21:25:46.440696,ML Framework Tests,Deterministic Results,Yes,0.50
+2025-06-25T21:25:46.440699,ML Framework Tests,Max Difference,0.00e+00,0.50
+2025-06-25T21:25:46.440701,ML Framework Tests,CUDNN Deterministic,False,0.50
+2025-06-25T21:25:46.440703,ML Framework Tests,CUDNN Benchmark,False,0.50
+2025-06-25T21:25:46.440705,ML Framework Tests,Cost per Sample (from Sample Throughput (mean)),$0.000000,0.50
+2025-06-25T21:25:46.440707,ML Framework Tests,Cost per Sample (from Sample Throughput (median)),$0.000000,0.50
+2025-06-25T21:25:46.440709,ML Framework Tests,Cost per Sample (from Sample Throughput (min)),$0.000000,0.50
+2025-06-25T21:25:46.440711,ML Framework Tests,Cost per Sample (from Sample Throughput (max)),$0.000000,0.50
+2025-06-25T21:25:46.440714,ML Framework Tests,Cost per Token (from Token Throughput (mean)),$0.000000000,0.50
+2025-06-25T21:25:46.440716,ML Framework Tests,Cost per Token (from Token Throughput (median)),$0.000000000,0.50
+2025-06-25T21:25:46.440718,ML Framework Tests,Cost per Token (from Token Throughput (min)),$0.000000000,0.50
+2025-06-25T21:25:46.440720,ML Framework Tests,Cost per Token (from Token Throughput (max)),$0.000000000,0.50
+2025-06-25T21:25:46.440725,Multi-GPU & Parallelism,kubectl Available,No,0.50
+2025-06-25T21:25:46.440727,Multi-GPU & Parallelism,Kube Config Exists,False,0.50
+2025-06-25T21:25:46.440729,Multi-GPU & Parallelism,Cluster Connectivity,No config,0.50
+2025-06-25T21:25:46.440731,Multi-GPU & Parallelism,GPU Device Plugin,Not Found,0.50
+2025-06-25T21:25:46.440733,Multi-GPU & Parallelism,Available GPUs,2,0.50
+2025-06-25T21:25:46.440735,Multi-GPU & Parallelism,Multi-GPU Training,DataParallel,0.50
+2025-06-25T21:25:46.440738,Multi-GPU & Parallelism,Avg Time per Batch,0.0202s,0.50
+2025-06-25T21:25:46.440740,Multi-GPU & Parallelism,Multi-GPU Throughput,12699.59 samples/s,0.50
+2025-06-25T21:25:46.440742,Multi-GPU & Parallelism,Gradient Sync Latency,0.0044s,0.50
+2025-06-25T21:25:46.440746,Multi-GPU & Parallelism,GPUs Used for Sync,2,0.50
+2025-06-25T21:25:46.440748,Multi-GPU & Parallelism,GPU0->GPU1 Bandwidth,24.88 GB/s,0.50
+2025-06-25T21:25:46.440750,Multi-GPU & Parallelism,Single GPU Inference,0.0001s,0.50
+2025-06-25T21:25:46.440752,Multi-GPU & Parallelism,Multi GPU Inference,0.0014s,0.50
+2025-06-25T21:25:46.440754,Multi-GPU & Parallelism,Multi-GPU Speedup,0.10x,0.50
+2025-06-25T21:25:46.440756,Multi-GPU & Parallelism,Model Parallelism,Pipeline across 2 GPUs,0.50
+2025-06-25T21:25:46.440759,Multi-GPU & Parallelism,Pipeline Inference Time,0.0003s,0.50
+2025-06-25T21:25:46.440761,Multi-GPU & Parallelism,Pipeline Throughput,478558.55 samples/s,0.50
+2025-06-25T21:25:46.440763,Multi-GPU & Parallelism,Docker Installed,False,0.50
+2025-06-25T21:25:46.440765,Multi-GPU & Parallelism,Docker Version,N/A,0.50
+2025-06-25T21:25:46.440767,Multi-GPU & Parallelism,Kubernetes CLI Installed,False,0.50
+2025-06-25T21:25:46.440769,Multi-GPU & Parallelism,Kubernetes CLI Version,N/A,0.50
+2025-06-25T21:25:46.440771,Multi-GPU & Parallelism,GPU Visibility in Container,False,0.50
